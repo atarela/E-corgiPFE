@@ -22,15 +22,13 @@
         <td>categorie:</td>
         <td><select name="categorie">
                 <option value="1">
-                    Livres
+                    Corgis
                     
                 </option>
                 <option value="2">
-                    Musiques
+                    Accessoires
                 </option>
-                <option value="3">Vetements Femmes</option>
-                <option value="4">Vetements Hommes</option>
-                <option value="5">Sports et loisirs</option>
+                <option value="3">Alimentation</option>
             </select>
         </td>
         </tr>
@@ -49,20 +47,14 @@ if (isset($_POST['addchamp']))
     switch ($_POST['categorie']) {
                 
             case 1:
-                header('location:form_cat_livre.php');
+                header('location:form_cat_corgi.php');
                 break;
             case 2:
-                header('location:form_cat_musique.php');
+                header('location:form_cat_acce.php');
                 break;
             case 3:
-                header('location:form_cat_vetementf.php');
-                break;
-            case 4:
-                header('location:form_cat_vetementh.php');
-                break; 
-            case 5:
-                header('location:form_cat_sport.php');
-                break;   
+                header('location:form_cat_alim.php');
+                break;  
         }
 
     }

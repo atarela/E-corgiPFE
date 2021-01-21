@@ -8,7 +8,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--====Modification de la taille de l'écaran en fonction de la taille de l'écran===============================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/ece.png"/>
+	<link rel="icon" type="image/png" href="images/icons/icon.png"/>
 <!--Le logo à la barre du titre===================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -51,33 +51,23 @@
 					
 					<!-- Logo desktop -->		
 					<a href="home-03.php" class="logo">
-						<img src="images/icons/logo.png" alt="IMG-LOGO">
+						<img src="images/icons/logo" alt="IMG-LOGO">
 					</a>
 
 					<!-- Menu desktop -->
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="home-03.php">Acceuil</a>
+								<a href="home-03.php">Accueil</a>
 							</li>
 
 							<li>
 								<a href="#">Magasin</a>
 								<ul class="sub-menu">
-									<li><a href='livre.php'>Livres</a></li>
-									<li><a href='music.php'>Musiques</a></li>
-									<li><a href='#'>Vêtements</a>
-										<ul class="sub-menu">
-											<li><a href='vfemme.php'>Femmes</a></li>
-											<li><a href='vhommes.php'>Hommes</a></li>
-										</ul>
-									</li>
-									<li><a href='sport.php'>Sport & Loisir</a></li>
+									<li><a href='location.php'>Louer un corgi</a></li>
+									<li><a href='accessoires.php'>Accessoires</a></li>
+									<li><a href='alimentation.php'>Alimentation</a></li>
 								</ul>
-							</li>
-
-							<li class="label1" data-label1="hot">
-								<a href="flash.php">Ventes Flash</a>
 							</li>
 
 							<li>
@@ -92,14 +82,12 @@
 									<li><a href='vendeur.html'>Vendeur</a></li>
 								</ul>
 							</li>
-
 							<li>
 								<a href="panier.php">Panier</a>
 							</li>
 
 						</ul>
 					</div>	
-
 
 					<!-- Icon header -->
 					<div class="wrap-icon-header flex-w flex-r-m h-full">			
@@ -113,7 +101,8 @@
 				</nav>
 			</div>	
 		</div>
-	</header>
+
+</header>	
 
 	<!-- Sidebar -->
 	<aside class="wrap-sidebar js-sidebar">
@@ -130,19 +119,19 @@
 				<ul class="sidebar-link w-full">
 					<li class="p-b-13">
 						<a href="home-03.php" class="stext-102 cl2 hov-cl1 trans-04">
-							Accuiel
+							Accueil
+						</a>
+					</li>
+
+					<li class="p-b-13">
+						<a href="https://fr.wikipedia.org/wiki/Welsh_Corgi_Pembroke" class="stext-102 cl2 hov-cl1 trans-04">
+							Savoir plus sur les corgis
 						</a>
 					</li>
 
 					<li class="p-b-13">
 						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-							Coup de Coeur
-						</a>
-					</li>
-
-					<li class="p-b-13">
-						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-							Mon compte
+							Conditions de location
 						</a>
 					</li>
 
@@ -161,65 +150,65 @@
 
 				<div class="sidebar-gallery w-full p-tb-30">
 					<span class="mtext-101 cl5">
-						@ ECEAmazon
+						@ E-corgi
 					</span>
 
 					<div class="flex-w flex-sb p-t-36 gallery-lb">
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/book1.jpg"
+							<a class="item-gallery bg-img1" href="images/cor1.jpg"
 							data-lightbox="gallery"  
-							style="background-image: url('images/book1.jpg');"></a>
+							style="background-image: url('images/cor1.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/book2.jpg"
+							<a class="item-gallery bg-img1" href="images/cor2.jpg"
 							data-lightbox="gallery" 
-							style="background-image: url('images/book2.jpg');"></a>
+							style="background-image: url('images/cor2.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/book3.jpg"
+							<a class="item-gallery bg-img1" href="images/cor3.jpg"
 							data-lightbox="gallery" 
-							style="background-image: url('images/book3.jpg');"></a>
+							style="background-image: url('images/cor3.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/music1.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/music1.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor4.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor4.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/louis.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/louis.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor5.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor5.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/fille.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/fille.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor6.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor6.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/sport2.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/sport2.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor7.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor7.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/muscu.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/muscu.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor8.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor8.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/gallery-09.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/gallery-09.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor9.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor9.jpg');"></a>
 						</div>
 					</div>
 				</div>
@@ -230,24 +219,22 @@
 					</span>
 
 					<p class="stext-108 cl6 p-t-27">
-						ECE Amazon est votre solution pour l'achat et vente en ligne parmis des millions de produits en stock.<br>
-						Vos articles à petits prix dans plusieurs catégories:<br>
-						Musique<br>
-						Vêtements<br>
-						Livres<br>
-						Sports et Loisir<br>
+						Un nouveau concept, pour quelques jours ou quelques années, louez un animal de compagnie.<br>
+						Dites OUI, mais pas pour la vie, grâce à nos services de location, adoptez des animeaux de compagnie de façon éphémère.<br>
+						
 						<br>
-						ECE Amazon...Dream Shopping 
+						E-corgi...Toujours présent pour vous<br>
 					</p>
 				</div>
 			</div>
 		</div>
 	</aside>
 
+
 	
 
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/orange.jpg');">
 		<h2 class="ltext-105 cl0 txt-center">
 			Votre Paiement
 		</h2>
@@ -322,58 +309,59 @@
 	</section>
 
 		
-	<!-- Footer -->
 	<footer class="bg3 p-t-75 p-b-32">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-lg-3 p-b-50">
 					<h4 class="stext-301 cl0 p-b-30">
-						Categories
+						Nos services
 					</h4>
 
 					<ul>
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Livres
+							<a href="location.php" class="stext-107 cl7 hov-cl1 trans-04">
+								louer un corgi
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Musiques
+							<a href="accessoires.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Accessoires
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Vêtements
+							<a href="alimentation.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Alimentations
 							</a>
 						</li>
 
-						<li class="p-b-10">
-							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Sport & Loisirs
-							</a>
-						</li>
 					</ul>
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Decouvrez nos offres
+					<h4 class="stext-301 cl0 p-b-30 ">
+						Les Membres de l'équipe
 					</h4>
 
 					<ul>
-						<li class="p-b-10">
-							<a href="stvalentin.php" class="stext-107 cl7 hov-cl1 trans-04">
-								C'est le st-Valentin
-							</a>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Alexandre AVAKIAN
 						</li>
-
-						<li class="p-b-10">
-							<a href="noel.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Noël
-							</a>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Atar EL AZIZ
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Louis FERAY BEAUMONT
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Duy NGUYEN
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Vithusha SIVAKUMARAN
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Noha ZAHRAN
 						</li>
 					</ul>
 				</div>
@@ -384,7 +372,7 @@
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
-						Vous avez des questions ? Venez nous voir au 37 Quai de Grenelle, 75015, Paris, France. Ou Apelez nous au : +33 7 56 89 78 74
+						Vous avez des questions ? Venez nous voir au 37 Quai de Grenelle, 75015, Paris, France. Ou Apelez nous au : +33 7 00 00 00 00
 					</p>
 
 					<div class="p-t-27">
@@ -409,18 +397,19 @@
 
 					<form>
 						<div class="wrap-input1 w-full p-b-4">
-							<input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
+							<input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com" method="post" >
 							<div class="focus-input1 trans-04"></div>
 						</div>
 
 						<div class="p-t-18">
-							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+							<button class="flex-c-m stext-101 cl0 size-103 bg10 bor1 hov-btn2 p-lr-15 trans-04" name="send" type="submit">
 								Subscribe
 							</button>
 						</div>
 					</form>
 				</div>
 			</div>
+
 
 			<div class="p-t-40">
 				<div class="flex-c-m flex-w p-b-18">

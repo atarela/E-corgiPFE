@@ -4,11 +4,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>ECE Amazon</title>
+	<title>E-corgi - Homepage</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--====Modification de la taille de l'écaran en fonction de la taille de l'écran===============================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/ece.png"/>
+	<link rel="icon" type="image/png" href="images/icons/icon.png"/>
 <!--Le logo à la barre du titre===================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -52,7 +52,7 @@
 					
 					<!-- Logo desktop -->		
 					<a href="home-03.php" class="logo">
-						<img src="images/icons/logo.png" alt="IMG-LOGO">
+						<img src="images/icons/logo" alt="IMG-LOGO">
 					</a>
 
 					<!-- Menu desktop -->
@@ -65,20 +65,10 @@
 							<li>
 								<a href="#">Magasin</a>
 								<ul class="sub-menu">
-									<li><a href='livre.php'>Livres</a></li>
-									<li><a href='music.php'>Musiques</a></li>
-									<li><a href='#'>Vêtements</a>
-										<ul class="sub-menu">
-											<li><a href='vfemme.php'>Femmes</a></li>
-											<li><a href='vhommes.php'>Hommes</a></li>
-										</ul>
-									</li>
-									<li><a href='sport.php'>Sport & Loisir</a></li>
+									<li><a href='location.php'>Louer un corgi</a></li>
+									<li><a href='accessoires.php'>Accessoires</a></li>
+									<li><a href='alimentation.php'>Alimentation</a></li>
 								</ul>
-							</li>
-
-							<li class="label1" data-label1="hot">
-								<a href="flash.php">Ventes Flash</a>
 							</li>
 
 							<li>
@@ -86,12 +76,8 @@
 							</li>
 
 							<li>
-								<a href="#">Mon Compte</a>
-								<ul class="sub-menu">
-									<li><a href='achteur.html'>Achteur</a></li>
-									<li><a href='admi.html'>Administateur</a></li>
-									<li><a href='vendeur.html'>Vendeur</a></li>
-								</ul>
+								<a href="achteur.html">Mon Compte</a>
+								
 							</li>
 							<li>
 								<a href="panier.php">Panier</a>
@@ -113,7 +99,7 @@
 			</div>	
 		</div>
 
-		
+</header>	
 
 	<!-- Sidebar -->
 	<aside class="wrap-sidebar js-sidebar">
@@ -130,19 +116,19 @@
 				<ul class="sidebar-link w-full">
 					<li class="p-b-13">
 						<a href="home-03.php" class="stext-102 cl2 hov-cl1 trans-04">
-							Accuiel
+							Accueil
+						</a>
+					</li>
+
+					<li class="p-b-13">
+						<a href="https://fr.wikipedia.org/wiki/Welsh_Corgi_Pembroke" class="stext-102 cl2 hov-cl1 trans-04">
+							En savoir plus sur les corgis
 						</a>
 					</li>
 
 					<li class="p-b-13">
 						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-							Coup de Coeur
-						</a>
-					</li>
-
-					<li class="p-b-13">
-						<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-							Mon compte
+							Conditions de location
 						</a>
 					</li>
 
@@ -161,65 +147,65 @@
 
 				<div class="sidebar-gallery w-full p-tb-30">
 					<span class="mtext-101 cl5">
-						@ ECEAmazon
+						@ E-corgi
 					</span>
 
 					<div class="flex-w flex-sb p-t-36 gallery-lb">
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/book1.jpg"
+							<a class="item-gallery bg-img1" href="images/cor1.jpg"
 							data-lightbox="gallery"  
-							style="background-image: url('images/book1.jpg');"></a>
+							style="background-image: url('images/cor1.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/book2.jpg"
+							<a class="item-gallery bg-img1" href="images/cor2.jpg"
 							data-lightbox="gallery" 
-							style="background-image: url('images/book2.jpg');"></a>
+							style="background-image: url('images/cor2.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/book3.jpg"
+							<a class="item-gallery bg-img1" href="images/cor3.jpg"
 							data-lightbox="gallery" 
-							style="background-image: url('images/book3.jpg');"></a>
+							style="background-image: url('images/cor3.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/music1.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/music1.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor4.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor4.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/louis.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/louis.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor5.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor5.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/fille.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/fille.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor6.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor6.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/sport2.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/sport2.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor7.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor7.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/muscu.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/muscu.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor8.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor8.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
-							<a class="item-gallery bg-img1" href="images/gallery-09.jpg" data-lightbox="gallery" 
-							style="background-image: url('images/gallery-09.jpg');"></a>
+							<a class="item-gallery bg-img1" href="images/cor9.jpg" data-lightbox="gallery" 
+							style="background-image: url('images/cor9.jpg');"></a>
 						</div>
 					</div>
 				</div>
@@ -230,14 +216,11 @@
 					</span>
 
 					<p class="stext-108 cl6 p-t-27">
-						ECE Amazon est votre solution pour l'achat et vente en ligne parmis des millions de produits en stock.<br>
-						Vos articles à petits prix dans plusieurs catégories:<br>
-						Musique<br>
-						Vêtements<br>
-						Livres<br>
-						Sports et Loisir<br>
+						Un nouveau concept, pour quelques jours ou quelques années, louez un animal de compagnie.<br>
+						Dites OUI, mais pas pour la vie, grâce à nos services de location, adoptez des animeaux de compagnie de façon éphémère.<br>
+						
 						<br>
-						ECE Amazon...Dream Shopping 
+						E-corgi...Toujours présent pour vous<br>
 					</p>
 				</div>
 			</div>
@@ -252,23 +235,35 @@
 	<section class="section-slide">
 		<div class="wrap-slick1 rs2-slick1">
 			<div class="slick1">
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/livres.jpg);" data-thumb="images/livres.jpg" data-caption="Livres">
+				<div class="item-slick1 bg-overlay1" style="background-image: url(images/corgi1.jpg);" data-thumb="images/corgi1.jpg" data-caption="Corgi">
 					<div class="container h-full">
 						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
 								<span class="ltext-202 txt-center cl0 respon2">
-									Nouveaux livres chaque semaine
+									Choisissez un nouveau compagnon
+								</span>
+							</div>
+							
+							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
+								<a href="location.php" class="flex-c-m stext-101 cl0 size-101 bg10 bor1 hov-btn2 p-lr-15 trans-04">
+									Découvrez nos Corgis
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item-slick1 bg-overlay1" style="background-image: url(images/corgi3.jpg);" data-thumb="images/corgi3.jpg" data-caption="Accessoires">
+					<div class="container h-full">
+						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
+							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
+								<span class="ltext-202 txt-center cl0 respon2">
+									Chouchoutez votre corgis
 								</span>
 							</div>
 								
-							<div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
-								<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
-									Best Seller
-								</h2>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
-								<a href="livre.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
+								<a href="accessoires.php" class="flex-c-m stext-101 cl0 size-101 bor1 bg10 hov-btn2 p-lr-15 trans-04">
 									Voir produits
 								</a>
 							</div>
@@ -276,99 +271,145 @@
 					</div>
 				</div>
 
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/music.jpg);" data-thumb="images/music.jpg" data-caption="Musqiues">
-					<div class="container h-full">
-						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
-							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
-								<span class="ltext-202 txt-center cl0 respon2">
-									Les albumes les plus récents
-								</span>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
-								<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
-									CD & MP3
-								</h2>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
-								<a href="music.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-									Regarder
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/vetement.jpg);" data-thumb="images/vetement.jpg" data-caption="Vêtements">
+				<div class="item-slick1 bg-overlay1" style="background-image: url(images/corgi6.jpg);" data-thumb="images/corgi6.jpg" data-caption="Alimentation">
 					<div class="container h-full">
 						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
 								<span class="ltext-202 txt-center cl0 respon2">
-									Men & Women Collection
+									Des croquettes à tous les goûts
 								</span>
 							</div>
 								
-							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
-								<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
-									NEW SEASON
-								</h2>
-							</div>
-								
 							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
-								<a href="vfemme.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+								<a href="alimentation.php" class="flex-c-m stext-101 cl0 size-101 bg10 bor1 hov-btn2 p-lr-15 trans-04">
 									Voir la collection
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="item-slick1 bg-overlay1" style="background-image: url(images/sport.jpg);" data-thumb="images/sport.jpg" data-caption="Sport & Loisir">
-					<div class="container h-full">
-						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
-							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
-								<span class="ltext-202 txt-center cl0 respon2">
-									Material du sport
-								</span>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
-								<h2 class="ltext-104 txt-center cl0 p-t-22 p-b-40 respon1">
-									NEW SEASON
-								</h2>
-							</div>
-								
-							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
-								<a href="sport.php" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-									Voir les produits
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
 
 			</div>
 
 			<div class="wrap-slick1-dots p-lr-10"></div>
 		</div>
 	</section>
-
-
+	<br>
+	<br>
+	<br>
+	<strong><span class="ltext-202 txt-center cl5 respon2" style="margin-left: 350PX;margin-right: 350px;">
+		Comment louer un animal de compagnie ?
+	</span></strong>
 	<!-- Banner -->
-	<div class="sec-banner bg0 p-t-95 p-b-55">
+	<div class="sec-banner bg0 p-t-40 p-b-55">
+		<div class="container">
+		
+			<div class="row">
+
+				<div class="col-md-6 col-lg-4 p-b-30 m-lr-auto">
+					<!-- Block1 -->
+					<div class="block1 wrap-pic-w" style="border: none;">
+						<!--<img src="/anciens/images/choix.png" alt="livre" >-->
+
+						<div class="icon-box-icon fa-container">
+						<span class="text-color-192233-color btn-disable-hover">
+						<i class="fa fa-tag fa-3x fa-fw" style="color: orange;"></i>
+						</span>
+						</div>
+						<div class="icon-box-content" >
+						<div class="icon-box-heading icon-box-fa-3x" >
+						<strong><h5 class="ltext-202 txt-center cl5 respon2">JE CHOISIS...</h5></strong>
+						</div>
+						
+						<p class="ltext-203 txt-center cl5 respon2">Nous mettons à votre disposition une large collection d'animaux de compagnie. Il y en a pour tous les goûts : <strong>choisissez celui qui vous ressemble</strong> !</p></div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 p-b-30 m-lr-auto">
+					<!-- Block1 -->
+					<div class="block1 wrap-pic-w" style="border: none;">
+
+					<div class="icon-box icon-box-left">
+					<div class="icon-box-icon fa-container">
+					<span class="text-color-192233-color btn-disable-hover">
+					<i class="fa fa-cart-arrow-down fa-3x fa-fw" style="color: orange;">
+					</i></span></div><div class="icon-box-content">
+					<div class="icon-box-heading icon-box-fa-3x">
+					<strong><h5 class="ltext-202 txt-center cl5 respon2">JE COMMANDE ...</h5></strong>
+					</div><p class="ltext-203 txt-center cl5 respon2"><strong>À chacun sa formule</strong> ! Choisissez parmi nos 3 formules de location à la carte :&nbsp;"<strong>Un peu</strong>" location/jour ; "<strong>Beaucoup</strong>" location/mois ; "<strong>À la folie</strong>" location/an.</p>
+					</div></div>
+				</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 p-b-30 m-lr-auto">
+					<!-- Block1 -->
+					<div class="block1 wrap-pic-w" style="border: none;">
+
+					<div class="uncol style-light">
+					<div class="uncoltable">
+					<div class="uncell  boomapps_vccolumn no-block-padding">
+					<div class="uncont">
+					<div class="icon-box icon-box-left">
+					<div class="icon-box-icon fa-container">
+					<span class="text-color-192233-color btn-disable-hover">
+					<i class="fa fa-gift fa-3x fa-fw" style="color: orange;">
+					</i></span></div>
+					<div class="icon-box-content">
+					<div class="icon-box-heading icon-box-fa-3x">
+					<strong><h5 class="ltext-202 txt-center cl5 respon2">JE REÇOIS !</h5></strong>
+					</div>
+					<p class="ltext-203 txt-center cl5 respon2">Nous vous proposons différents modes de livraison : "<strong>À la maison</strong>" ou en "<strong>Point relais</strong>" (<em>animaleries...</em>), selon <strong>vos envies, vos disponibilités et vos attentes !</strong>
+					</p></div></div></div></div></div></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Slider -->
+	<section class="section-slide">
+		<div class="wrap-slick1 rs2-slick1">
+			<div class="slick1">
+				<div class="item-slick1 bg-overlay1" style="background-image: url(images/corgi2.png);">
+					<div class="container h-full">
+						<div class="flex-col-c-m h-full p-t-100 p-b-60 respon5">
+							
+							<div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="2000">
+								<a href="location.php" class="flex-c-m stext-101 cl0 size-101 bg10 bor1 hov-btn2 p-lr-15 trans-04">
+									Découvrez nos Corgis
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	
+
+	<!-- Product -->
+	<section class="bg0 p-t-23 p-b-130">
+		<div class="container">
+			<div class="p-b-10">
+				<h3 class="ltext-103 cl5 txt-center">
+					Nos Produits
+				</h3>
+			</div>
+
+			<div class="sec-banner bg0 p-t-95 p-b-55">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 p-b-30 m-lr-auto">
 					<!-- Block1 -->
-					<div class="block1 wrap-pic-w">
-						<img src="images/femme.jpg" alt="Femme">
+					<div class="block1 wrap-pic-w layer-slick1 animated bounceIn " data-appear="fadeInDown" data-delay="2000">
+						<img src="images/corgi3.jpg" alt="game">
 
-						<a href="vfemme.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+						<a href="accessoires.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Collection Femme
+									Collection d'accessoire
 								</span>
 
 								<span class="block1-info stext-102 trans-04">
@@ -388,12 +429,12 @@
 				<div class="col-md-6 p-b-30 m-lr-auto">
 					<!-- Block1 -->
 					<div class="block1 wrap-pic-w">
-						<img src="images/homme.jpg" alt="Homme">
+						<img src="images/corgi8.jpg" alt="food">
 
-						<a href="vhommes.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+						<a href="alimentation.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Collection Homme
+									Alimentation
 								</span>
 
 								<span class="block1-info stext-102 trans-04">
@@ -404,79 +445,6 @@
 							<div class="block1-txt-child2 p-b-4 trans-05">
 								<div class="block1-link stext-101 cl0 trans-09">
 									Voir la collection
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-lg-4 p-b-30 m-lr-auto">
-					<!-- Block1 -->
-					<div class="block1 wrap-pic-w">
-						<img src="/anciens/images/white.jpg" alt="livre" >
-
-						<a href="livre.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-							<div class="block1-txt-child1 flex-col-l">
-								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Livres
-								</span>
-
-								
-							</div>
-
-							<div class="block1-txt-child2 p-b-4 trans-05">
-								<div class="block1-link stext-101 cl0 trans-09">
-									Acheter des Livres
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-lg-4 p-b-30 m-lr-auto">
-					<!-- Block1 -->
-					<div class="block1 wrap-pic-w">
-						<img src="/anciens/images/white.jpg" alt="Musique">
-
-						<a href="music.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-							<div class="block1-txt-child1 flex-col-l">
-								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Musiques
-								</span>
-
-								<span class="block1-info stext-102 trans-04">
-									Tout le materiel
-								</span>
-							</div>
-
-							<div class="block1-txt-child2 p-b-4 trans-05">
-								<div class="block1-link stext-101 cl0 trans-09">
-									Regarder
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-lg-4 p-b-30 m-lr-auto">
-					<!-- Block1 -->
-					<div class="block1 wrap-pic-w">
-						<img src="/anciens/images/white.jpg" alt="sport">
-
-						<a href="sport.php" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-							<div class="block1-txt-child1 flex-col-l">
-								<span class="block1-name ltext-102 trans-04 p-b-8">
-									Sport & Loisirs
-								</span>
-
-								<span class="block1-info stext-102 trans-04">
-									Materiels
-								</span>
-							</div>
-
-							<div class="block1-txt-child2 p-b-4 trans-05">
-								<div class="block1-link stext-101 cl0 trans-09">
-									Regarder
 								</div>
 							</div>
 						</a>
@@ -485,87 +453,11 @@
 			</div>
 		</div>
 	</div>
-
-
-	<!-- Product -->
-	<section class="bg0 p-t-23 p-b-130">
-		<div class="container">
-			<div class="p-b-10">
-				<h3 class="ltext-103 cl5">
-					Nos Produits
-				</h3>
-			</div>
-			
-
-			<div class="row isotope-grid">
-				<?php
-                //identifier le nom de base de données
-                $database = "projet_web";
-                //connectez-vous dans votre BDD
-                //Rappel : votre serveur = localhost | votre login = root | votre mot de pass = '' (rien)
-                $db_handle = mysqli_connect('localhost', 'root', '' );
-                $db_found = mysqli_select_db($db_handle, $database);
-                 //si le BDD existe, faire le traitement
-                if ($db_found) {
-                 $sql = "SELECT * FROM items";
-                 $result = mysqli_query($db_handle, $sql);
-                 while ($data = mysqli_fetch_assoc($result)) { ?>
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-
-					<!-- Block2 -->
-
-					<div class="block2">
-						<div class="block2-pic hov-img0">
-
-							
-							<?php echo '<img src="'.$data['photo'].'" alt="produit" id="images" />'; ?>
-
-							<a href="livre.php" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-								Quick View
-							</a>
-						</div>
-
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="#" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-									<?php echo  $data['nom'] ; ?>
-								</a>
-
-								<span class="stext-105 cl3">
-									<?php echo  $data['prix'],'€'; ?>
-								</span>
-								<span class="stext-105 cl3">
-									<?php echo  $data['descri']; ?>
-								</span>
-								<br>
-
-								
-                                           
-                                
-
-							</div>
-
-							<div class="block2-txt-child2 flex-r p-t-3">
-								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-									<img class="icon-heart1 dis-block trans-04" src="images/icons/icon-heart-01.png" alt="ICON">
-									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				
-
-			<?php
-                     
-                 } }else mysqli_close($db_handle);
-                
-                
-                ?>
 		</div>
 		</div>
 	</section>
+
+	
 
 
 	<!-- Footer -->
@@ -574,58 +466,60 @@
 			<div class="row">
 				<div class="col-sm-6 col-lg-3 p-b-50">
 					<h4 class="stext-301 cl0 p-b-30">
-						Categories
+						Nos services
 					</h4>
 
 					<ul>
 						<li class="p-b-10">
-							<a href="livre.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Livres
+							<a href="location.php" class="stext-107 cl7 hov-cl1 trans-04">
+								louer un corgi
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="music.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Musiques
+							<a href="accessoires.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Accessoires
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="vfemme.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Vêtements Femmes
+							<a href="alimentation.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Alimentations
 							</a>
 						</li>
 
 						<li class="p-b-10">
-							<a href="vhommes.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Vêtements Hommes
+							<a href="allproduct.php" class="stext-107 cl7 hov-cl1 trans-04">
+								Tous les produits
 							</a>
 						</li>
 
-						<li class="p-b-10">
-							<a href="sport.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Sport & Loisirs
-							</a>
-						</li>
 					</ul>
 				</div>
 
 				<div class="col-sm-6 col-lg-3 p-b-50">
-					<h4 class="stext-301 cl0 p-b-30">
-						Decouvrez nos offres
+					<h4 class="stext-301 cl0 p-b-30 ">
+						Les Membres de l'équipe
 					</h4>
 
 					<ul>
-						<li class="p-b-10">
-							<a href="stvalentin.php" class="stext-107 cl7 hov-cl1 trans-04">
-								C'est le st-Valentin
-							</a>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Alexandre AVAKIAN
 						</li>
-
-						<li class="p-b-10">
-							<a href="noel.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Noël
-							</a>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Atar EL AZIZ
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Louis FERAY BEAUMONT
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Duy NGUYEN
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Vithusha SIVAKUMARAN
+						</li>
+						<li class="p-b-10 stext-107 cl7 hov-cl1 trans-04">
+							Noha ZAHRAN
 						</li>
 					</ul>
 				</div>
@@ -636,7 +530,7 @@
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
-						Vous avez des questions ? Venez nous voir au 37 Quai de Grenelle, 75015, Paris, France. Ou Apelez nous au : +33 7 56 89 78 74
+						Vous avez des questions ? Venez nous voir au 37 Quai de Grenelle, 75015, Paris, France. Ou Apelez nous au : +33 7 00 00 00 00
 					</p>
 
 					<div class="p-t-27">
@@ -666,7 +560,7 @@
 						</div>
 
 						<div class="p-t-18">
-							<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04" name="send" type="submit">
+							<button class="flex-c-m stext-101 cl0 size-103 bg10 bor1 hov-btn2 p-lr-15 trans-04" name="send" type="submit">
 								Subscribe
 							</button>
 						</div>
